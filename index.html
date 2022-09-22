@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea
+        class="text_input"
+        cols="30"
+        rows="10"
+        placeholder="Enter some thing to save"
+        required
+      ></textarea>
+      <div class="choice">
+        <div class="option file-name">
+          <label>File Name</label>
+          <div>
+            <input
+              type="text"
+              class="input_name"
+              placeholder="File Name"
+              required
+            />
+          </div>
+          
+        </div>
+        <div class="option save-as">
+          <label>Save As</label>
+          <div class="selectmenu">
+            <select name="" id="" class="select" required>
+              <option value="text/javascript" class="js">Js File(.js)</option>
+              <option value="text/plain" class="txt">Text File(.txt)</option>
+              <option value="text/html" class="html">HTML File(.html)</option>
+              <option value="image/svg+xml" class="svg">SVG File(.svg)</option>
+              <option value="application/msword" class="doc">Doc File(.doc)</option>
+              <option value="application/vnd.ms-powerpoint" class="ppt">PPT File(.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save">Save As</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
